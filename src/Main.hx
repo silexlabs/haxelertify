@@ -21,10 +21,10 @@ class Main
 */
 		Alertify.prompt("Bonjour comment ça va?", function (f: Bool, str: String){
 			if (f) {
-				Alertify.log('Message received $str', "success");
+				Alertify.success("youhouhou");
 			}
 			else {
-				Alertify.log("Au revoir", "error", 1000);
+				Alertify.error("ça marche pas");
 			}
 		});
 	}
