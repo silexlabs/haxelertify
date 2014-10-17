@@ -1,3 +1,5 @@
+import js.html.Event;
+
 class Main
 {
 
@@ -7,6 +9,14 @@ class Main
 	}
 
 	public function new(){
-		Alertify.alert("Coucou 42");
+		Alertify.confirm("Voulez-vous vraiment ?", function (e: Bool)
+		{
+			if (e){
+				Alertify.alert("Confirmed !");
+			}
+			else {
+				Alertify.alert("How about No ?!");
+			}
+		});
 	}
 }
