@@ -1,0 +1,14 @@
+{
+  "name": "Haxelertify",
+  "url" :
+      "https://github.com/silexlabs/HaxeContributhon42/",
+  "license": "MIT",
+  "tags": ["js"],
+  "description":
+      "Alertify externs",
+  "version": "1.0.0",
+  "releasenote":
+      "Initial release, everything is working correctly",
+  "contributors": ["silexlabs"],
+  "dependencies": {}
+}
